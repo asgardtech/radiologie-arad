@@ -8,107 +8,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110821053-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-110821053-1');
+        gtag('config', 'UA-110821053-1');
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($(window).width() <= 950) {
+                window.location = "mobile/index.html";
+            }
+        });
     </script>
 
 
-<style>
-    p {
-        font-size: 120%;
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
-    }
 
-    h1,
-    h2 {
-        font-size: 200%;
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
-    }
+    <style>
+        p {
+            font-size: 120%;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
 
-    ul {
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: black;
-    }
+        h1,
+        h2 {
+            font-size: 200%;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
 
-    li {
-        float: right;
-    }
+        ul {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+        li {
+            float: right;
+        }
 
-    li a:hover {
-        background-color: rgb(88, 33, 33);
-    }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-    .li {
-        float: left;
-        color: white;
-        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        display: block;
-        padding: 16px;
-    }
+        li a:hover {
+            background-color: rgb(88, 33, 33);
+        }
 
-    html {
-        background: url("tulips.jpg") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+        .li {
+            float: left;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: block;
+            padding: 16px;
+        }
 
-    .cutie {
-        background-color: rgba(3, 3, 3, 0.5);
-        border: 0px;
-        width: 800px;
-        margin: 100px auto 0 auto;
-        padding-top: 10px;
-    }
-</style>
+        html {
+            background: url("tulips.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .cutie {
+            background-color: rgba(3, 3, 3, 0.5);
+            border: 0px;
+            width: 800px;
+            margin: 100px auto 0 auto;
+            padding-top: 10px;
+        }
+    </style>
 </head>
+
 <body>
 
     <ul>
         <li>
             <a href="despre.html">Despre</a>
-        </li> 
+        </li>
         <li>
             <a href="istoric.html">Istoric</a>
-        </li> 
+        </li>
         <li>
             <a href="lista.investigatii.html">Listă investigații</a>
         </li>
         <li>
             <a href="index.html">Acasă</a>
-        </li>  
+        </li>
         <div class="li">
             <li>
                 <strong>S.C. Radiologica S.R.L.</strong>
             </li>
-        </div>         
+        </div>
     </ul>
 
     <div class="cutie">
@@ -122,7 +132,8 @@
             Servicii medicale de radiologie convențională
         </h2>
         <br>
-        <p>Centrul nostru de radiologie vă oferă servicii radiologice de calitate, datorită aparaturii moderne și de asemenea
+        <p>Centrul nostru de radiologie vă oferă servicii radiologice de calitate, datorită aparaturii moderne și de
+            asemenea
             o interpretare rapidă și corectă a rezultatelor.</p>
         <br>
         <p>Dr. Glișici Goran -- medic primar radiologie-imagistică medicală</p>
@@ -136,15 +147,11 @@
         <br>
         <p>Vă așteptăm cu drag!</p>
         <br>
-        <iframe
-        width="450"
-        height="250"
-        frameborder="0" style="margin-left: 170px"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD6OF8ZLoy4aidy1traIJKirdb7My9z4OU&q=Radiologie+Arad,Arad+Romania" allowfullscreen>
+        <iframe width="450" height="250" frameborder="0" style="margin-left: 170px" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD6OF8ZLoy4aidy1traIJKirdb7My9z4OU&q=Radiologie+Arad,Arad+Romania"
+            allowfullscreen>
         </iframe>
     </div>
 
 </body>
 
 </html>
-

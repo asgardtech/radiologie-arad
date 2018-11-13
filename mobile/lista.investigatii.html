@@ -1,0 +1,581 @@
+﻿<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($(window).width() > 950) {
+                window.location = "../lista.investigatii.html";
+            }
+        });
+    </script>
+
+</head>
+
+<body style="max-width:600px">
+
+    <style>
+        body {
+            background: url("tulips2.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        h2 {
+            font-size: 80%;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 90%;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: left;
+        }
+
+        .cutieincutie {
+            margin: 5% 0% 0% 5%;
+            height: 70%;
+            width: 90%;
+            text-align: center;
+            vertical-align: middle;
+            position: relative;
+        }
+
+        .imaginecutie {
+            max-height: 100%;
+            max-width: 100%;
+            vertical-align: middle;
+
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        .cutie {
+            background-color: rgba(3, 3, 3, 0.5);
+            float: left;
+            border: 0px;
+            width: 100%;
+            height: 290px;
+            margin: 50px 10px 0px 0px;
+        }
+
+        .cutie p {
+            font-size: 80%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .cutie h3 {
+            font-size: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            text-align: right;
+            padding-right: 5px;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            width: 10000px;
+        }
+    </style>
+
+    <nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+        <div class="w3-container w3-theme-d3">
+            <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large" style="padding-top: 65px">X</span>
+            <br>
+            <div class="w3-padding w3-center">
+                <img class="w3-circle" src="omulet.jpg" alt="S.C. RADIOLOGICA S.R.L." style="width:80%; padding-top: 40px">
+            </div>
+        </div style="background: pink">
+        <a class="w3-bar-item w3-button" href="index.html">Acasă</a>
+        <a class="w3-bar-item w3-button" href="lista.investigatii.html">Listă investigații</a>
+        <a class="w3-bar-item w3-button" href="istoric.html">Istoric</a>
+        <a class="w3-bar-item w3-button" href="despre.html">Despre</a>
+    </nav>
+
+
+    <header class="w3-bar w3-card w3-theme" style="position: fixed; z-index: 100">
+        <button class="w3-bar-item w3-button w3-xlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+        <h4 class="w3-bar-item" style="max-height: 40px">S.C. RADIOLOGICA S.R.L.</h4>
+    </header>
+
+    <div class="w3-cell w3-container" style="padding-top:70px">
+        <h2>
+            --Efectuăm radiografii în contract cu Casa de Asigurări Arad, prin care radiografiile sunt
+            gratuite, în limita plafonului lunar.
+        </h2>
+
+        <h1>
+            --Listă investigații:
+        </h1>
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://adevarul.ro/sanatate/medicina/cand-e-necesara-radiografia-pulmonara-1_580ddc315ab6550cb8dbaa19/index.html"
+                    target="_blank">
+                    <img class="imaginecutie" src="plamani.jpg" alt="radiografie pulmonara" />
+                </a>
+            </div>
+
+            <p>
+                Radiografie pulmonară
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://adevarul.ro/sanatate/medicina/cand-e-necesara-radiografia-pulmonara-1_580ddc315ab6550cb8dbaa19/index.html"
+                    target="_blank">
+                    <img class="imaginecutie" src="plamani.jpg" alt="radiografie pulmonara" />
+                </a>
+            </div>
+            <p>
+                Radiografie pulmonară standard
+            </p>
+            <h3>
+                60 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.docdoc.md/ro/service/craniu" target="_blank">
+                    <img class="imaginecutie" src="craniu.jpg" alt="radiografie craniu" />
+                </a>
+            </div>
+            <p>
+                Radiografie craniu
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.medici-stomatologi.ro/infodent/sindromul-articulatiei-temporomandibulare" target="_blank">
+                    <img class="imaginecutie" src="mandibula.jpg" alt="radiografie mandibula" />
+                </a>
+            </div>
+            <p>
+                Radiografie mandibulă
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.rasfoiesc.com/sanatate/medicina/EXAMENUL-RADIOIMAGISTIC-IN-ORL64.php" target="_blank">
+                    <img class="imaginecutie" src="sinusurianterioarealefetei.jpg" alt="radiografie mandibula" />
+                </a>
+            </div>
+            <p>
+                Sinusuri anterioare ale feței
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.i-medic.ro/boli/fractura-de-piramida-nazala" target="_blank">
+                    <img class="imaginecutie" src="piramidanazala.jpg" alt="radiografie piramida nazala" />
+                </a>
+            </div>
+            <p>
+                Radiografie piramidă nazală
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.endocrinopedia.info/2015/07/radiografia-de-sa-turceasca.html" target="_blank">
+                    <img class="imaginecutie" src="saturca.jpg" alt="radiografie sa turca" />
+                </a>
+            </div>
+            <p>
+                Radiografie șa turcă
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="https://www.libertateapentrufemei.ro/dictionar-medical/fractura-costala" target="_blank">
+                    <img class="imaginecutie" src="grilajcostal.jpg" alt="radiografie grilaj costal" />
+                </a>
+            </div>
+            <p>
+                Radiografie grilaj costal
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.romedic.ro/pectus-carinatum" target="_blank">
+                    <img class="imaginecutie" src="stern.jpg" alt="radiografie de stern" />
+                </a>
+            </div>
+            <p>
+                Radiografie de stern
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://ortopediaonline.ro/content/view/62/46/" target="_blank">
+                    <img class="imaginecutie" src="coloanacervicala.jpg" alt="radiografie coloana cervicala" />
+                </a>
+            </div>
+            <p>
+                Radiografie coloană cervicală
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.bendo.ro/cauze-de-durere-toracica/" target="_blank">
+                    <img class="imaginecutie" src="coloanatoracala.jpg" alt="radiografie coloana toracala" />
+                </a>
+            </div>
+            <p>
+                Radiografie coloană toracală
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="https://www.prostemcell.org/tulburari-neurologice/hernia-de-disc-lombara.html" target="_blank">
+                    <img class="imaginecutie" src="coloanalombara.jpg" alt="radiografie coloana lombara" />
+                </a>
+            </div>
+            <p>
+                Radiografie coloană lombară
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.csid.ro/semne-si-simptome/durere-la-nivelul-soldului-11235871/" target="_blank">
+                    <img class="imaginecutie" src="soldbilateral.jpg" alt="radiografie sold bilateral" />
+                </a>
+            </div>
+            <p>
+                Radiografie șold bilateral
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.chirurgortoped.ro/afectiuni-si-tratamente/afectiuni-ale-umarului/" target="_blank">
+                    <img class="imaginecutie" src="umar.jpg" alt="radiografie umar" />
+                </a>
+            </div>
+            <p>
+                Radiografie umăr
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.lectiadeortopedie.ro/traumatologia-membrului-superior/fractura-de-clavicula/"
+                    target="_blank">
+                    <img class="imaginecutie" src="clavicula.jpg" alt="radiografie clavicula" />
+                </a>
+            </div>
+            <p>
+                Radiografie claviculă
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.lectiadeortopedie.ro/traumatologia-membrului-superior/fractura-de-humerus-proximal//"
+                    target="_blank">
+                    <img class="imaginecutie" src="brat.jpg" alt="radiografie brat" />
+                </a>
+            </div>
+            <p>
+                Radiografie braț
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://medicinaderecuperare.ro/protocoale-medicale/protocoale-la-nivelul-cotului/" target="_blank">
+                    <img class="imaginecutie" src="cot.jpg" alt="radiografie cot" />
+                </a>
+            </div>
+            <p>
+                Radiografie cot
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.consultatieortopedie.ro/servicii/traume-sau-fracturi/cot-si-antebrat/fractura-antebrat/"
+                    target="_blank">
+                    <img class="imaginecutie" src="antebrat.jpg" alt="radiografie antebrat" />
+                </a>
+            </div>
+            <p>
+                Radiografie antebraț
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="https://doc.ro/artroza-mainilor-de-ce-apare-si-cum-se-trateaza" target="_blank">
+                    <img class="imaginecutie" src="pumn.jpg" alt="radiografie pumn" />
+                </a>
+            </div>
+            <p>
+                Radiografie pumn
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://mihairascu.ro/sindromul-de-tunel-carpian/" target="_blank">
+                    <img class="imaginecutie" src="tunelcarpian.jpg" alt="radiografie dtunel carpian" />
+                </a>
+            </div>
+            <p>
+                Radiografie tunel carpian
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="https://doc.ro/artroza-mainilor-de-ce-apare-si-cum-se-trateaza" target="_blank">
+                    <img class="imaginecutie" src="mana.jpg" alt="radiografie mana" />
+                </a>
+            </div>
+            <p>
+                Radiografie mână
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.lectiadeortopedie.ro/traumatologia-membrului-superior/fractura-de-scafoid/" target="_blank">
+                    <img class="imaginecutie" src="scafoid.jpg" alt="radiografie scafoid" />
+                </a>
+            </div>
+            <p>
+                Radiografie scafoid
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="https://www.doctorortoped.ro/afectiuni-ortopedie/sold-si-coapsa/81-fractura-femur-diafiza.html"
+                    target="_blank">
+                    <img class="imaginecutie" src="coapsa.jpg" alt="radiografie coapsa" />
+                </a>
+            </div>
+            <p>
+                Radiografie coapsă
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="https://centrokinetic.ro/fiziokinetoterapia-explicata/totul-despre-recuperare/durere-genunchi/"
+                    target="_blank">
+                    <img class="imaginecutie" src="genunchi.jpg" alt="radiografie genunchi" />
+                </a>
+            </div>
+            <p>
+                Radiografie genunchi
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.lectiadeortopedie.ro/traumatologia-membrului-inferior/fractura-diafizei-tibiale/"
+                    target="_blank">
+                    <img class="imaginecutie" src="gamba.jpg" alt="radiografie gamba" />
+                </a>
+            </div>
+            <p>
+                Radiografie gambă
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.lectiadeortopedie.ro/afectiuni-cronice-ortopedice/afectiunile-piciorului-si-gleznei/"
+                    target="_blank">
+                    <img class="imaginecutie" src="glezna.jpg" alt="radiografie glezna" />
+                </a>
+            </div>
+            <p>
+                Radiografie gleznă
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.lectiadeortopedie.ro/afectiuni-cronice-ortopedice/afectiunile-piciorului-si-gleznei/"
+                    target="_blank">
+                    <img class="imaginecutie" src="antepicior.jpg" alt="radiografie antepicior" />
+                </a>
+            </div>
+            <p>
+                Radiografie antepicior
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.medreflexline.ro/detalii.aspx?pinteni_calcaneeni" target="_blank">
+                    <img class="imaginecutie" src="calcaneu.jpg" alt="radiografie calcaneu" />
+                </a>
+            </div>
+            <p>
+                Radiografie calcaneu
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.ymed.ro/radiografia-abdominala/" target="_blank">
+                    <img class="imaginecutie" src="abdomennativ.jpg" alt="radiografie abdomen nativ" />
+                </a>
+            </div>
+            <p>
+                Radiografie abdomen nativ
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+        <div class="cutie">
+            <div class="cutieincutie">
+                <a href="http://www.scritub.com/medicina/Radiografia-si-bolile-aparatul11510725.php" target="_blank">
+                    <img class="imaginecutie" src="renalasimpla.jpg" alt="radiografie renala simpla" />
+                </a>
+            </div>
+            <p>
+                Radiografie renală simplă
+            </p>
+            <h3>
+                70 RON
+            </h3>
+        </div>
+
+
+    </div>
+
+
+
+    <footer class="w3-container w3-theme-d3 w3-margin-top">
+        <h3>© 2017 Asgard-Tech IO</h3>
+    </footer>
+
+    <script>
+        closeSidebar();
+        function openSidebar() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+        function closeSidebar() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
