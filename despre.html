@@ -2,161 +2,183 @@
 <html>
 
 <head>
-        <title>Radiologie Arad - Despre</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiologie Arad - Despre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110821053-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-110821053-1');
+        gtag('config', 'UA-110821053-1');
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($(window).width() <= 950) {
+                window.location = "mobile/despre.html";
+            }
+        });
     </script>
 
-<style>
-     
-    p {
-        font-size: 120%;
-        text-align: left;
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
 
-    h1 {
-        font-size: 350%;
-        text-align: center;
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
 
-    ul {
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: black;
-        
-    }
-    
-    li {
-        float: right;        
-    }
-    
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    
-    li a:hover {
-        background-color:rgb(88, 33, 33);
-    }
+    <style>
+        p {
+            font-size: 120%;
+            text-align: left;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-    .li {
-        float: left;
-        color: white;
-        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        display: block;
-        padding: 16px;
-    }
-    
-    html { 
-        background: url("tulips.jpg") no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+        h1 {
+            font-size: 350%;
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-    .cutie {
-        background-color: rgba(3, 3, 3, 0.5);
-        border: 0px;
-        width: 800px;
-        height: 950px;
-        margin: 100px auto 0 auto;
-        padding-top: 5px;
-        padding-left: 10px;
-    }
-        
-</style>
+        ul {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+
+        }
+
+        li {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        li a:hover {
+            background-color: rgb(88, 33, 33);
+        }
+
+        .li {
+            float: left;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: block;
+            padding: 16px;
+        }
+
+        html {
+            background: url("tulips.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .cutie {
+            background-color: rgba(3, 3, 3, 0.5);
+            border: 0px;
+            width: 800px;
+            height: 950px;
+            margin: 100px auto 0 auto;
+            padding-top: 5px;
+            padding-left: 10px;
+        }
+    </style>
 </head>
 
 <body>
-                    
+
     <ul>
         <li>
             <a href="despre.html">Despre</a>
-        </li> 
+        </li>
         <li>
             <a href="istoric.html">Istoric</a>
-        </li> 
+        </li>
         <li>
             <a href="lista.investigatii.html">Listă investigații</a>
         </li>
         <li>
             <a href="index.html">Acasă</a>
-        </li>     
+        </li>
         <div class="li">
             <li>
                 <strong>S.C. Radiologica S.R.L.</strong>
             </li>
-        </div>      
-    </ul>           
-        
-        <div class="cutie">    
-                
-                <h1>
-                            Radiografia    
-                </h1>
-                    
-                <p>                       
-                            O radiografie este înregistrarea, pe film fotografic special, a imaginii structurale a unui obiect, obținută cu 
-                            ajutorul radiațiilor X sau gamma. Radiografia permite examinarea obiectelor netransparente pentru lumină, pe baza 
-                            proprietății acestor radiații de a fi mult mai penetrante.
-                </p>
+        </div>
+    </ul>
 
-                <p>
-                            La realizarea radiografiei, sursa de radiații este dispusă de o parte a obiectului, iar filmul de cealaltă parte. 
-                            Străbătând obiectul, radiațiile sunt atenuate inegal în diferitele puncte ale acestuia (în funcție de densitatea și 
-                            de grosimea materialului), astfel încât, pe film, componentele obiectelor neomogene se diferențiază prin contrast.
-                </p>
+    <div class="cutie">
 
-                <p>
-                            Radiografia se utilizează pe larg în medicină, diferitele țesuturi sau organe având transparențe inegale la radiațiile X. 
-                            Unele organe goale pot fi umplute cu o substanță radiopacă care absoarbe razele X. Un exemplu în acest caz este 
-                            sulfatul de bariu este folosit pe cale orală pentru examinarea esofagului sau stomacului. Alte substanțe sunt 
-                            folosite injectabil pentru angiografie (examinarea vaselor de sânge).
-                </p>
+        <h1>
+            Radiografia
+        </h1>
 
-                <p>
-                            Față de radioscopie, radiografia prezintă avantajul de a fixa definitiv imaginea structurală, înregistrând totodată 
-                            amănunte pe care ochiul nu le poate percepe la prima vedere (pe ecranul fluorescent).
-                            <a href="https://ro.wikipedia.org/wiki/Radiografie" target="_blank" style="color:rgb(150,150,250)">Conform paginii Wikipedia</a>
-                </p>
-                <br>
-                <p>
-                            Pregătirea pacientului în vederea realizării unei radiografii constă în îndepărtarea materialelor metalice 
-                            care se pot suprapune pe zona de radiografiat, iar pentru o radiografie de calitate colaborarea cu tehnicianul 
-                            radiolog este esentială. Este vorba despre comenzile de inspir-expir (apnee sau ținerea respirației) pe care 
-                            pacientul trebuie sa le execute.
-                </p>
+        <p>
+            O radiografie este înregistrarea, pe film fotografic special, a imaginii structurale a unui obiect,
+            obținută cu
+            ajutorul radiațiilor X sau gamma. Radiografia permite examinarea obiectelor netransparente pentru lumină,
+            pe baza
+            proprietății acestor radiații de a fi mult mai penetrante.
+        </p>
 
-                <p>
-                            Evoluția permanentă și progresul ultimilor ani în industria de aparatură medicală se regăsește și în domeniul 
-                            radiologiei clasice. Actualmente noi putem procesa imaginea radiologică în format clasic (film Kodak).
-                </p>
-        </div>                
-        
-            
+        <p>
+            La realizarea radiografiei, sursa de radiații este dispusă de o parte a obiectului, iar filmul de cealaltă
+            parte.
+            Străbătând obiectul, radiațiile sunt atenuate inegal în diferitele puncte ale acestuia (în funcție de
+            densitatea și
+            de grosimea materialului), astfel încât, pe film, componentele obiectelor neomogene se diferențiază prin
+            contrast.
+        </p>
+
+        <p>
+            Radiografia se utilizează pe larg în medicină, diferitele țesuturi sau organe având transparențe inegale la
+            radiațiile X.
+            Unele organe goale pot fi umplute cu o substanță radiopacă care absoarbe razele X. Un exemplu în acest caz
+            este
+            sulfatul de bariu este folosit pe cale orală pentru examinarea esofagului sau stomacului. Alte substanțe
+            sunt
+            folosite injectabil pentru angiografie (examinarea vaselor de sânge).
+        </p>
+
+        <p>
+            Față de radioscopie, radiografia prezintă avantajul de a fixa definitiv imaginea structurală, înregistrând
+            totodată
+            amănunte pe care ochiul nu le poate percepe la prima vedere (pe ecranul fluorescent).
+            <a href="https://ro.wikipedia.org/wiki/Radiografie" target="_blank" style="color:rgb(150,150,250)">Conform
+                paginii Wikipedia</a>
+        </p>
+        <br>
+        <p>
+            Pregătirea pacientului în vederea realizării unei radiografii constă în îndepărtarea materialelor metalice
+            care se pot suprapune pe zona de radiografiat, iar pentru o radiografie de calitate colaborarea cu
+            tehnicianul
+            radiolog este esentială. Este vorba despre comenzile de inspir-expir (apnee sau ținerea respirației) pe
+            care
+            pacientul trebuie sa le execute.
+        </p>
+
+        <p>
+            Evoluția permanentă și progresul ultimilor ani în industria de aparatură medicală se regăsește și în
+            domeniul
+            radiologiei clasice. Actualmente noi putem procesa imaginea radiologică în format clasic (film Kodak).
+        </p>
+    </div>
+
+
 </body>
+
 </html>

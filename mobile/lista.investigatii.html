@@ -5,6 +5,18 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($(window).width() > 950) {
+                window.location = "../lista.investigatii.html";
+            }
+        });
+    </script>
+
+</head>
+
 <body style="max-width:600px">
 
     <style>
@@ -79,7 +91,7 @@
             padding-bottom: 5px;
         }
 
-        footer{
+        footer {
             width: 10000px;
         }
     </style>
