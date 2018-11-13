@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+
+<body style="max-width:600px">
+
+  <style>
+    body {
+      background: url("tulips2.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    p {
+      font-size: 90%;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+
+    h1,
+    h2 {
+      font-size: 100%;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+
+    footer {
+      width: 10000px;
+    }
+
+    .imaginew img {
+      float: left;
+      width: 200px;
+    }
+  </style>
+
+  <nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+    <div class="w3-container w3-theme-d3">
+      <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large" style="padding-top: 65px">X</span>
+      <br>
+      <div class="w3-padding w3-center">
+        <img class="w3-circle" src="omulet.jpg" alt="S.C. RADIOLOGICA S.R.L." style="width:80%; padding-top: 40px">
+      </div>
+    </div style="background: pink">
+    <a class="w3-bar-item w3-button" href="index.html">Acasă</a>
+    <a class="w3-bar-item w3-button" href="lista.investigatii.html">Listă investigații</a>
+    <a class="w3-bar-item w3-button" href="istoric.html">Istoric</a>
+    <a class="w3-bar-item w3-button" href="despre.html">Despre</a>
+  </nav>
+
+  <header class="w3-bar w3-card w3-theme" style="position: fixed; z-index: 100">
+    <button class="w3-bar-item w3-button w3-xlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+    <h4 class="w3-bar-item" style="max-height: 40px">S.C. RADIOLOGICA S.R.L.</h4>
+  </header>
+
+  <div class="w3-cell w3-container" style="padding-top:70px">
+
+
+    <h1>
+      O scurtă istorie a descoperirii razelor X
+    </h1>
+    <h2>
+      Wilhelm Conrad Röntgen
+    </h2>
+
+    <p>
+      Röntgen s-a născut în 1845, la Lennep, în Germania, fiind singurul copil al unui negustor și producător de
+      textile.
+      Datorită mamei sale care provenea dintr-o veche familie olandeză, familia Röntgen a decis să se mute în Olanda,
+      când micuțul Wilhelm avea doar trei ani. În copilărie și adolescență, Röntgen nu dădea semne de aptitudini ieșite
+      din
+      comun, dar avea o pasiune - pe care, de altfel și-a păstrat-o toată viața - de a face farse mecanice complicate,
+      îndelung elaborate.
+    </p>
+
+    <p>
+      Unul dintre momentele cele mai importante ale vieții sale a fost întâlnirea cu Ivan Pulyui, un fizician de
+      origine
+      ucraineană, care i-a furnizat savantului german una din lămpile pe care acesta le-a folosit pentru a obține ceea
+      ce
+      el a numit "raze X". Röntgen a descoperit razele care îi poartă numele din pură întâmplare, experimentând în
+      laboratorul
+      său efectele descărcărilor sarcinilor electrice de mare intensitate prin tuburi de sticlă umplute cu gaz la
+      presiuni
+      foarte joase.
+    </p>
+
+    <p>
+      Anterior studiase efectul razelor catodice, raze care apar în mo­men­tul în care curentul electric trece
+      printr-un gaz
+      extrem de rarefiat. În noiembrie 1895 a descoperit că dacă tubul prin care trece sarcina electrică este izolat cu
+      un
+      carton negru pentru a exclude orice sursă de lumi­nă, în condițiile lucrului într-o cameră obscură, un carton
+      care are
+      pe una din suprafețele sale platinocianidă barică devine fluorescent, chiar dacă este la o depărtare apreciabilă
+      de tub.
+      Röntgen a mers mai departe și a observat că același fenomen, al înregistrării transparenței unui corp, are loc și
+      folosind
+      plăci fotografice. Prima radiografie din lume a fost făcută la scurt timp de către Röntgen, surprinzând pe
+      clișeele
+      fotografice oasele unei mâini a soției sale și inelul pe care aceasta îl purta. De aici, savantul a dedus că
+      oasele
+      sunt mult mai puțin permeabile pentru razele X, reliefându-se mai dur, ca și inelul soției sale. Din 1895 și-a
+      petrecut
+      restul vieții în laborator studiind acest fenomen.
+    </p>
+
+    <p>
+      Moartea lui, din 1923, drept urmare a unui carcinom intestinal, nu este o consecință directă a experimentelor
+      sale cu
+      razele X, pentru că el a fost unul dintre primii savanți care au folosit ecrane de plumb pentru protecția la
+      radiații. <a href="https://ro.wikipedia.org/wiki/Wilhelm_Conrad_R%C3%B6ntgen" target="_blank" style="color:rgb(150,150,250)">Conform
+        paginii Wikipedia</a>
+    </p>
+
+
+    <div class="imaginew"><br>
+      <a href="wilhelmconradroentgen.jpg">
+        <img src="wilhelmconradroentgen.jpg" alt="Wilhelm Conrad Röntgen"></a>
+      <p style="text-align: center"><br>
+        Wilhelm Conrad Röntgen
+      </p>
+    </div>
+
+  </div>
+
+  <footer class="w3-container w3-theme-d3 w3-margin-top">
+    <h3>© 2017 Asgard-Tech IO</h3>
+  </footer>
+
+  <script>
+    closeSidebar();
+    function openSidebar() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    function closeSidebar() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+</html>

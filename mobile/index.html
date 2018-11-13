@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+
+<body style="max-width:600px">
+
+  <style>
+    body {
+      background: url("tulips2.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    p {
+      font-size: 100%;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+
+    h4 {
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+
+    footer {
+      width: 10000px;
+    }
+  </style>
+
+  <nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+    <div class="w3-container w3-theme-d3">
+      <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large" style="padding-top: 65px">X</span>
+      <br>
+      <div class="w3-padding w3-center">
+        <img class="w3-circle" src="omulet.jpg" alt="S.C. RADIOLOGICA S.R.L." style="width:80%; padding-top: 40px">
+      </div>
+    </div style="background: pink">
+    <a class="w3-bar-item w3-button" href="index.html">Acasă</a>
+    <a class="w3-bar-item w3-button" href="lista.investigatii.html">Listă investigații</a>
+    <a class="w3-bar-item w3-button" href="istoric.html">Istoric</a>
+    <a class="w3-bar-item w3-button" href="despre.html">Despre</a>
+  </nav>
+
+  <header class="w3-bar w3-card w3-theme" style="position: fixed; z-index: 100">
+    <button class="w3-bar-item w3-button w3-xlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+    <h4 class="w3-bar-item" style="max-height: 40px">S.C. RADIOLOGICA S.R.L.</h4>
+  </header>
+
+  <div class="w3-cell w3-container" style="padding-top:70px">
+    <h4>
+      Radiologie și imagistică medicală din anul 2000
+    </h4>
+    <h4>
+      Servicii medicale de radiologie convențională
+    </h4>
+    <br>
+    <p>Centrul nostru de radiologie vă oferă servicii radiologice de calitate, datorită aparaturii moderne și de
+      asemenea
+      o interpretare rapidă și corectă a rezultatelor.</p>
+    <br>
+    <p>Dr. Glișici Goran -- medic primar radiologie-imagistică medicală</p>
+    <p>Dr. Condroviciu Radu -- medic primar radiologie-imagistică medicală</p>
+    <p>Asistente medicale: As. Sinkovicz Monica, As. Olari Carina</p>
+    <br>
+    <p>Ne gasiți în incinta Policlinicii Municipale Arad, etajul 1, camera 101-102.</p>
+    <p>Adresa: Bulevardul Revolutiei 45, Arad.</p>
+    <p>Program: Luni-Vineri: 08:00-18:00.</p>
+    <p>Număr de telefon: 0257212600, 0257253767.</p>
+    <br>
+    <p>Vă așteptăm cu drag!</p>
+    <br>
+    <iframe width="250" height="130" frameborder="0" style="padding-left:50px" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD6OF8ZLoy4aidy1traIJKirdb7My9z4OU&q=Radiologie+Arad,Arad+Romania"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <footer class="w3-container w3-theme-d3 w3-margin-top">
+    <h3>© 2017 Asgard-Tech IO</h3>
+  </footer>
+
+  <script>
+    closeSidebar();
+    function openSidebar() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    function closeSidebar() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>

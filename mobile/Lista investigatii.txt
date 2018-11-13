@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<body style="max-width:600px">
+
+<style>
+    body{
+      background: url("tulips2.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; 
+    }
+
+    p {
+        font-size: 100%;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    h4 {
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+  </style>
+
+
+<nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+<div class="w3-container w3-theme-d3">
+  <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+  <br>
+  <div class="w3-padding w3-center">
+    <img class="w3-circle" src="omulet.jpg" alt="S.C. RADIOLOGICA S.R.L." style="width:80%">
+  </div>
+</div style="background: pink">
+<a class="w3-bar-item w3-button" href="#">Acasa</a>
+<a class="w3-bar-item w3-button" href="#">Lista investiga?ii</a>
+<a class="w3-bar-item w3-button" href="#">Istoric</a>
+<a class="w3-bar-item w3-button" href="#">Despre</a>
+</nav>
+
+
+<header class="w3-bar w3-card w3-theme" style="position: fixed">
+  <button class="w3-bar-item w3-button w3-xlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+  <h4 class="w3-bar-item" style="max-height: 40px">S.C. RADIOLOGICA S.R.L.</h4>
+</header>
+
+<div class="w3-cell w3-container" style="padding-top:70px">
+	<h2>
+                --Efectuam radiografii în contract cu Casa de Asigurari Arad, prin care radiografiile sunt
+                gratuite, în limita plafonului lunar.
+            </h2>
+
+            <h1>
+                --Lista investiga?ii:
+            </h1>
+
+
+
+
+
